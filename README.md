@@ -1,5 +1,5 @@
 # sqlite3-test
-ทดสอบ sqlite3 บน raspery pi 3
+หัดใช้และทดสอบเบื้องต้น sqlite3 บน raspery pi 3
 
 รวมไฟล์ที่เขียนเพื่อทดสอบการติดตั้งและใช้งานเบื้องต้นของโปรแกรม sqlite3
 
@@ -10,13 +10,15 @@
 http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html
 http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html
 
-หัดใช้
+หัดใช้ sqlite3
 
 https://www.youtube.com/watch?v=QjICgmk31js&feature=youtu.be
 
+http://www.newthinktank.com/2013/05/sqlite3-tutorial/
+
 http://www.w3ii.com/en-US/sqlite/default.html
 
-คู่มืออ้างอิง
+คู่มืออ้างอิง sqlite3
 
 https://sqlite.org/docs.html
 
