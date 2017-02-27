@@ -3,7 +3,7 @@ import time
 import sqlite3
 
 #01-------------------------------
-mydb1 = '/home/pi/myiot/myiot01.db'
+mydb1 = 'myiot.db'
 cn1 = sqlite3.connect(mydb1)
 
 print "\nSQLite == 1.Test read tables fron python."
