@@ -13,7 +13,7 @@ print "\nSQLite3-Python: Test read tables."
 print "--------------------------------------------"
 
 #1--mydb1,sqlcmd
-mydb1 = '/home/pi/myiot/myiot01.db'
+mydb1 = 'myiot.db'
 print ">> database file:", mydb1
 
 xtable = raw_input('>> table name: ')   
