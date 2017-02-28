@@ -21,6 +21,8 @@ testinsert1.py  --
 
 
 
+
+
 ลิงค์แนะนำ:
 
 วิธีติดตั้งบน raspberry pi
