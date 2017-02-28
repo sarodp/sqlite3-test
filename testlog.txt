@@ -1,0 +1,71 @@
+///--1 ติดตั้งโปรแกรม sqlite3
+
+$ sudo apt-get update
+
+$ sudo apt-get upgrade
+
+$ sudo apt-get install sqlite3
+
+
+///--2 ติดตั้งไฟล์โปรแกรมไพทอน, สคริปท์ .SQL และ สคริปท์ .sh ทดสอบ
+
+$ git clone https://github.com/sarodp/sqlite3-test.git
+
+$ cd sqlite3-test
+
+$ cp .sqliterc ~/
+
+
+///--3a สร้างไฟล์ฐานข้อมูล myiot.db พร้อมตาราง TMEASURE, TSETTING และรายการข้อมูลเริ่มต้น
+
+$ sqlite3 myiot.db < createtables.sql
+
+$ sqlite3 myiot.db < insertrows.sql
+
+///--3b ทำงานกับไฟล์ฐานข้อมูล myiot.db ด้วยโปรแกรม sqlite3
+
+$ cp .sqliterc ~/
+
+$ sqlite3 myiot.db 
+
+sqlite>.full
+
+...เรียกดู schema ของตารางทั้งหมด ในไฟล์ myiot.db
+
+sqlite>.table
+
+..ดูรายชื่อตารางทั้งหมดในไฟล์ myiot.db
+
+
+
+
+///--4 ทดสอบโปรแกรมไพทอน
+
+///--4a testselect1.py อ่านข้อมูลจากตารางในไฟล์ myiot.db
+
+$ sudo python testselect1.py
+
+SQLite3-Python: Test read tables.
+
+--------------------------------------------
+
+>> database file: myiot.db
+
+>> table name: <พิมพ์ชื่อตาราง  tmeasure หรือ tsetting >
+
+...
+
+
+///--4b testinsert1.py เพิ่มเรคคอร์ดข้อมูลของตาราง TMEASURE ในไฟล์ myiot.db
+
+$ sudo python testinsert1.py
+
+SQLite3-Python: Test insert into TMEASURE.
+
+------------------------------------------------
+
+>> database file: myiot.db
+
+>> no. of records to insert [1-100000]: <พิมพ์จำนวนเรคคอร์ดที่ต้องการเพิ่มในตาราง TMEASURE>
+
+ 
