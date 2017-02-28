@@ -1,0 +1,87 @@
+pi@myrpi:~ $ 
+
+pi@myrpi:~ $ git clone https://github.com/sarodp/sqlite3-test.git
+
+Cloning into 'sqlite3-test'...
+remote: Counting objects: 53, done.
+remote: Compressing objects: 100% (49/49), done.
+remote: Total 53 (delta 23), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (53/53), done.
+Checking connectivity... done.
+
+pi@myrpi:~ $ cd sqlite3-test
+
+pi@myrpi:~/sqlite3-test $ ls -l
+total 32
+-rw-r--r-- 1 pi pi  603 Feb 28 05:01 createtables.sql
+-rw-r--r-- 1 pi pi 1316 Feb 28 05:01 insertrows.sql
+-rw-r--r-- 1 pi pi  961 Feb 28 05:01 README.md
+-rw-r--r-- 1 pi pi 2634 Feb 28 05:01 sqlite3_cheatsheet.txt
+-rw-r--r-- 1 pi pi 1579 Feb 28 05:01 testinsert1.py
+-rw-r--r-- 1 pi pi 1465 Feb 28 05:01 testinsert.py
+-rw-r--r-- 1 pi pi 1073 Feb 28 05:01 testselect1.py
+-rw-r--r-- 1 pi pi 1180 Feb 28 05:01 testselect.py
+
+pi@myrpi:~/sqlite3-test $ sqlite3 myiot.db < createtables.sql
+
+pi@myrpi:~/sqlite3-test $ sqlite3 myiot.db < insertrows.sql
+
+pi@myrpi:~/sqlite3-test $ sqlite3 myiot.db 
+-- Loading resources from /home/pi/.sqliterc
+
+SQLite version 3.8.7.1 2014-10-29 13:59:56
+Enter ".help" for usage hints.
+
+sqlite> .full
+CREATE TABLE TMEASURE 
+(
+  ID integer primary key autoincrement,
+  STAG character(10) not null,
+  SVALUE real not null,
+  TSTAMP datetime default (datetime('now','localtime'))
+);
+CREATE TABLE TSETTING
+(
+  STAG character(10) primary key not null,
+  DESC1 character(50),
+  UNIT  character(10),
+
+  MIN real not null,
+  MAX real not null,
+  ALARMLO real not null,
+  ALARMHI real not null,
+  
+  STYPE character(20),
+  CODE1 character(20),
+  CODE2 character(20),
+  CODE3 character(20)
+);
+/* No STAT tables available */
+
+
+sqlite> .table
+TMEASURE  TSETTING
+
+sqlite> select * from tmeasure;
+ID          STAG        SVALUE      TSTAMP             
+----------  ----------  ----------  -------------------
+1           T1          25.0        2017-02-28 05:03:12
+2           T2          35.0        2017-02-28 05:03:12
+3           H1          70.0        2017-02-28 05:03:12
+4           H2          56.0        2017-02-28 05:03:12
+5           KW1         2.75        2017-02-28 05:03:12
+6           KW2         0.44        2017-02-28 05:03:12
+
+sqlite> select * from tsetting;
+STAG        DESC1       UNIT        MIN         MAX         ALARMLO     ALARMHI     STYPE        CODE1       CODE2       CODE3     
+----------  ----------  ----------  ----------  ----------  ----------  ----------  -----------  ----------  ----------  ----------
+T1          ---         C           0.0         100.0       20.0        40.0        TEMPERATURE  R101                              
+T2          ---         C           0.0         100.0       20.0        40.0        TEMPERATURE  R201                              
+H1          ---         %           0.0         100.0       40.0        70.0        HUMIDITY     R101                              
+H2          ---         %           0.0         100.0       40.0        70.0        HUMIDITY     R201                              
+KW1         ---         KW          0.0         5.0         0.0         4.0         POWER        R101                              
+KW2         ---         KW          0.0         10.0        0.0         9.0         POWER        R201                              
+
+sqlite> .quit
+
+pi@myrpi:~/sqlite3-test $ 
