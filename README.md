@@ -2,16 +2,21 @@
 หัดใช้และทดสอบเบื้องต้น sqlite3 บน raspery pi 3
 
 รวมไฟล์ที่เขียนเพื่อทดสอบการติดตั้งและใช้งานเบื้องต้นของโปรแกรม sqlite3
+
 sqlite3_cheatsheet.txt
 
 .sqliterc --
+
 createmyiot.sh -- 
 
 createtables.sql --
+
 insertrows.sql --
+
 myiot.db --       
 
 testselect1.py  --
+
 testinsert1.py  --
 
 
