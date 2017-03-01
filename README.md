@@ -3,17 +3,13 @@
 
 ***** วิธีติดตั้งและทดสอบ ดูที่ไฟล์ Testlog.txt  *****
 
-รายละเอียดของไฟล์ต่างๆ เพื่อทดสอบการติดตั้งและหัดใช้งานเบื้องต้นของโปรแกรม sqlite3
-sqlite3_cheatsheet.txt  ตัวอย่างการใช้คำสั่งในโปรแกรม sqlite3
+รายละเอียดของไฟล์ต่างๆ เพื่อทดสอบการติดตั้งและหัดใช้งานเบื้องต้นของโปรแกรม sqlite3<br>
+sqlite3_cheatsheet.txt    #ตัวอย่างการใช้คำสั่งในโปรแกรม sqlite3<br>
 
-.sqliterc 
-
---ให้ก็อปปี้ไฟล์เซ็ตติ้งไว้ที่น่ี /home/pi/.sqliterc  
-เป็นการกำหนดค่าคัวแปรควบคุมต่างๆ ของโปรแกรม 
-
-createmyiot.sh 
-
---$chmod +x createmyiot.sh # สคริปท์ไฟล์สร้างไฟล์ฐานข้อมูล myiot.db  
+.sqliterc   #ไฟล์กำหนดค่าคัวแปรควบคุมต่างๆ ของโปรแกรม sqlite3 <br>
+            #ให้ก็อปปี้ไฟล์เซ็ตติ้งไว้ที่น่ี /home/pi/.sqliterc<br>  
+createmyiot.sh  #สคริปท์ไฟล์สร้างไฟล์ฐานข้อมูล myiot.db  <br>
+                $ chmod +x createmyiot.sh # <br>
 
 createtables.sql 
 
