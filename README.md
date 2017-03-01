@@ -58,6 +58,4 @@ https://www.sqlite.org/doclist.html
 https://sqlite.org/cli.html  
 https://sqlite.org/lang_corefunc.html  
 
-หัดใช้ SQL  
-http://www.w3ii.com/sql/default.html  
 <br><br>
