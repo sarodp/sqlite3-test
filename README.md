@@ -4,20 +4,23 @@
 ***** วิธีติดตั้งและทดสอบ ดูที่ไฟล์ Testlog.txt  *****
 
 รายละเอียดของไฟล์ต่างๆ เพื่อทดสอบการติดตั้งและหัดใช้งานเบื้องต้นของโปรแกรม sqlite3<br>
-sqlite3_cheatsheet.txt    #ตัวอย่างการใช้คำสั่งในโปรแกรม sqlite3<br>
-
-.sqliterc   #ไฟล์กำหนดค่าคัวแปรควบคุมต่างๆ ของโปรแกรม sqlite3 <br>
-            #ให้ก็อปปี้ไฟล์เซ็ตติ้งไว้ที่น่ี /home/pi/.sqliterc<br>  
-createmyiot.sh  #สคริปท์ไฟล์สร้างไฟล์ฐานข้อมูล myiot.db  <br>
-                $ chmod +x createmyiot.sh # <br>
-
-createtables.sql 
-
---สคริปท์ SQL สร้างตาราง TMEASURE กับ TSETTING
-
-insertrows.sql 
-
---สคริปท์ SQL เพิ่มเรคคอร์ดให้กับตาราง TMEASURE กับ TSETTING
+<br>
+sqlite3_cheatsheet.txt<br>
+--ตัวอย่างการใช้คำสั่งในโปรแกรม sqlite3<br>
+<br>
+.sqliterc<br>
+--ไฟล์กำหนดค่าคัวแปรควบคุมต่างๆ ของโปรแกรม sqlite3 <br>
+--ให้ก็อปปี้ไฟล์เซ็ตติ้งไว้ที่น่ี /home/pi/.sqliterc<br>  
+<br>
+createmyiot.sh<br>
+--สคริปท์ไฟล์สร้างไฟล์ฐานข้อมูล myiot.db  <br>
+--$chmod +x createmyiot.sh  <br>
+<br>
+createtables.sql<br> 
+--สคริปท์ SQL สร้างตาราง TMEASURE กับ TSETTING<br>
+<br>
+insertrows.sql<br>
+--สคริปท์ SQL เพิ่มเรคคอร์ดให้กับตาราง TMEASURE กับ TSETTING<br>
 
 myiot.db 
 
