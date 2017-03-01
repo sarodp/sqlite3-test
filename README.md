@@ -49,9 +49,15 @@ part 2
 https://www.youtube.com/watch?v=dBnOn17pI7c  
 http://www.newthinktank.com/2013/06/sqlite3-tutorial-2/  
 <br><br>
+หัดใช้ SQL  
+http://www.w3ii.com/sql/default.html  
+<br><br>
 คู่มืออ้างอิง sqlite3  
 https://sqlite.org/docs.html  
 https://www.sqlite.org/doclist.html  
 https://sqlite.org/cli.html  
 https://sqlite.org/lang_corefunc.html  
+
+หัดใช้ SQL  
+http://www.w3ii.com/sql/default.html  
 <br><br>
