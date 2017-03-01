@@ -1,7 +1,8 @@
 # sqlite3-test
 หัดใช้และทดสอบเบื้องต้น sqlite3 บน raspery pi 3  
 ----  
-0.วิธีติดตั้งและทดสอบ  
+0.วิธีติดตั้งและทดสอบ
+----  
   ตัวอย่าง การติดตั้งและแสดงไว้ไฟล์ Testlog.txt  
   https://github.com/sarodp/sqlite3-test/blob/master/testlog.txt  
 <br><br>
