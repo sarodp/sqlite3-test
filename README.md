@@ -51,6 +51,8 @@ http://www.newthinktank.com/2013/06/sqlite3-tutorial-2/
 <br><br>
 หัดใช้ SQL  
 http://www.w3ii.com/sql/default.html  
+สรุปย่อประโยคคำสั่ง SQL  
+http://www.w3ii.com/sql/sql_quickref.html  
 <br><br>
 คู่มืออ้างอิง sqlite3  
 https://sqlite.org/docs.html  
