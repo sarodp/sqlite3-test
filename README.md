@@ -23,30 +23,36 @@ createtables.sql<br>
 insertrows.sql<br>
 --สคริปท์ SQL เพิ่มเรคคอร์ดให้กับตาราง TMEASURE กับ TSETTING<br>
 <br>
-myiot.db <br>
---ไฟล์ฐานข้อมูล SQLite ที่ใช้ทดสอบ สามารถสร้างขึ้นโดยรันเชลล์สคริปท์ createmyiot.sh<br>
+myiot.db  
+--ไฟล์ฐานข้อมูล SQLite ที่ใช้ทดสอบ สามารถสร้างขึ้นโดยรันเชลล์สคริปท์ createmyiot.sh  
 <br>
-testselect1.py<br>  
---โปรแกรมไพทอนทดสอบการอ่าน Table จากไฟล์ฐานข้อมูล myiot.db<br>
+testselect1.py    
+--โปรแกรมไพทอนทดสอบการอ่าน Table จากไฟล์ฐานข้อมูล myiot.db  
 <br>
-testinsert1.py<br>
---โปรแกรมไพทอนทดสอบการเขียนข้อมูลลงตาราง TMEASURE ของไฟล์ฐานข้อมูล myiot.db<br>
+testinsert1.py  
+--โปรแกรมไพทอนทดสอบการเขียนข้อมูลลงตาราง TMEASURE ของไฟล์ฐานข้อมูล myiot.db  
 <br>
 <br>
-ลิงค์แนะนำ:<br>
-=======================================<br>
-วิธีติดตั้งบน raspberry pi<br>
-http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html<br>
-http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html<br>
+ลิงค์แนะนำ:  
+=======================================  
+วิธีติดตั้งบน raspberry pi  
+http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html  
+http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html  
+<br><br>
+หัดใช้ sqlite3  
+part 1  
+https://www.youtube.com/watch?v=QjICgmk31js&feature=youtu.be  
+http://www.newthinktank.com/2013/05/sqlite3-tutorial/  
+part 2  
+https://www.youtube.com/watch?v=dBnOn17pI7c  
+http://www.newthinktank.com/2013/06/sqlite3-tutorial-2/  
 <br>
-หัดใช้ sqlite3<br>
-https://www.youtube.com/watch?v=QjICgmk31js&feature=youtu.be<br>
-http://www.newthinktank.com/2013/05/sqlite3-tutorial/<br>
-http://www.w3ii.com/en-US/sqlite/default.html<br>
-<br>
-คู่มืออ้างอิง sqlite3<br>
-https://sqlite.org/docs.html<br>
-https://www.sqlite.org/doclist.html <br>
-https://sqlite.org/cli.html<br>
-https://sqlite.org/lang_corefunc.html<br>
+http://www.newthinktank.com/2013/05/sqlite3-tutorial/  
+http://www.w3ii.com/en-US/sqlite/default.html  
+<br><br>
+คู่มืออ้างอิง sqlite3  
+https://sqlite.org/docs.html  
+https://www.sqlite.org/doclist.html  
+https://sqlite.org/cli.html  
+https://sqlite.org/lang_corefunc.html  
 <br>
