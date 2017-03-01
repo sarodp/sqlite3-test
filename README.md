@@ -1,10 +1,10 @@
 # sqlite3-test
 หัดใช้และทดสอบเบื้องต้น sqlite3 บน raspery pi 3  
-<br>
+----  
 ตัวอย่าง วิธีติดตั้งและทดสอบ ดูที่ไฟล์ Testlog.txt  
 <br><br>
-ไฟล์ต่างๆ เพื่อทดสอบการติดตั้งและหัดใช้งานเบื้องต้นของโปรแกรม sqlite3  
-====
+1.รายละเอียดไฟล์ต่างๆ  
+----  
 sqlite3_cheatsheet.txt  
 --ตัวอย่างการใช้คำสั่งในโปรแกรม sqlite3   
 <br>
@@ -31,8 +31,8 @@ testselect1.py
 testinsert1.py  
 --โปรแกรมไพทอนทดสอบการเขียนข้อมูลลงตาราง TMEASURE ของไฟล์ฐานข้อมูล myiot.db  
 <br><br>
-ลิงค์แนะนำ:  
-=======================================  
+2.ลิงค์แนะนำ:  
+----  
 วิธีติดตั้งบน raspberry pi  
 http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html  
 http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html  
