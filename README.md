@@ -3,7 +3,8 @@
 ----  
 0.วิธีติดตั้งและทดสอบ
 ----  
-  ตัวอย่าง การติดตั้งและแสดงไว้ไฟล์ Testlog.txt  
+  ตัวอย่าง การติดตั้งและทดสอบด้วย command line   
+  แสดงไว้ด้วยไฟล์ Testlog.txt  
   https://github.com/sarodp/sqlite3-test/blob/master/testlog.txt  
 <br><br>
 1.รายละเอียดไฟล์ต่างๆ  
