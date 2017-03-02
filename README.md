@@ -39,7 +39,7 @@
 http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html  
 http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html  
 <br><br>
-* หัดใช้ sqlite3  
+* หัดใช้คำสั่งใน sqlite3  
 part 1  
 https://www.youtube.com/watch?v=QjICgmk31js&feature=youtu.be  
 http://www.newthinktank.com/2013/05/sqlite3-tutorial/  
@@ -47,7 +47,7 @@ part 2
 https://www.youtube.com/watch?v=dBnOn17pI7c  
 http://www.newthinktank.com/2013/06/sqlite3-tutorial-2/  
 <br><br>
-* หัดใช้ SQL  
+* หัดใช้ภาษา SQL  
 http://www.w3ii.com/sql/default.html  
 สรุปย่อประโยคคำสั่ง SQL  
 http://www.w3ii.com/sql/sql_quickref.html  
