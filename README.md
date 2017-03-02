@@ -33,7 +33,8 @@
 * testinsert1.py  
 --โปรแกรมไพทอนทดสอบการเขียนข้อมูลลงตาราง TMEASURE ของไฟล์ฐานข้อมูล myiot.db  
 <br><br>
-## ลิงค์แนะนำ:    
+
+## ลิงค์แนะนำ:     
 * วิธีติดตั้งบน raspberry pi  
 http://raspberrywebserver.com/sql-databases/set-up-an-sqlite-database-on-a-raspberry-pi.html  
 http://raspberrywebserver.com/sql-databases/accessing-an-sqlite-database-with-python.html  
